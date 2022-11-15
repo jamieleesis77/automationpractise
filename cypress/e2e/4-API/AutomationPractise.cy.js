@@ -15,13 +15,13 @@ describe('API Testing', () => {
   });
   
 
-  it('gets a response', () => {
-    cy.request('https://official-joke-api.appspot.com/random_joke').then((response => {
-      cy.log(response);
-      console.log(response);
-      expect(response.status).to.equal(200);
-      expect(response.body.data).to.have.length(5);
-    }))
+  //it('gets a response', () => {
+    //cy.request('https://official-joke-api.appspot.com/random_joke').then((response => {
+      //cy.log(response);
+      //console.log(response);
+      //expect(response.status).to.equal(200);
+      //expect(response.body.data).to.have.length(5);
+    //}))
 
-  });
+  //});
 });

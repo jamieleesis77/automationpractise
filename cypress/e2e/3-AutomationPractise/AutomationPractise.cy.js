@@ -21,6 +21,7 @@ describe('Automation Practise App', () => {
     cy.get(addToCartButton).click()
     cy.get(popUpText).should('contain.text', 'Product successfully added to your shopping cart')
 
+
   });
   
 });
